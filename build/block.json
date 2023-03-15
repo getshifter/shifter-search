@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/shifter-search",
+  "version": "0.1.0",
+  "title": "Shifter Search",
+  "category": "text",
+  "icon": "search", 
+  "description": "Intuitive search experiences",
+  "attributes": {
+    "message": {
+      "type": "string",
+      "source": "text",
+      "selector": "div"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "shifter-search",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
